@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+
+\title{BIL101 INTRODUCTION TO COMPUTER SCIENCE}
+\author{#HW09}
+\date{Ahmed Semih Özmekik}
+
+\begin{document}
+
+\maketitle
+
+
+\centering
+\section{Pekiştirmeli Öğrenme}
+Makine öğrenmesi yöntemlerinden birisi olan pekiştirmeli öğrenmeyi ,
+	türkçedeki karşılığının çağrışımlarından yola çıkarak
+	tanımaya çalışmak çok yanlış olmaz.Çünkü gerçek anlamda deneme yanılma yani "pekiştirerek"
+	spesifik amacına ulaşmaya çalışan bir öğrenme çeşidi olduğunu söylemek mümkün.
+	Pekiştirmeli öğrenmeyi diğer makine öğrenmesi yöntemlerinden ayıran özellikler
+	dünyamızdaki canlıların öğrenme yeteneklerinden çok da farklı olmayışı ve amaca
+	odaklı bir yöntem olması.Örneğin biyolojide solucanların öğrenme yeteneklerinin
+	test edildiği
+	bir düzenekte , solucanlara 2 farklı yol sunuluyor ve 1.yolu seçtikleri takdirde
+	küçük bir elektrik çarpması ile karşılıyorlar , 2.yolu seçtikleri takdirde
+	besin ile karşılaşıyorlar.Ve testin ilerleyen aşamalarında solucanların artık 1.yolu
+	seçmedikleri gözleniyor.İşte pekiştirmeli öğrenme yöntemini bu örnekteki
+	öğrenme yöntemiyle bağdaştırabilmemiz mümkün.Bu benzerliği pekiştirmeli öğrenme
+	yönteminin detaylarına girerek daha iyi netleştirmeye çalışalım. Yöntemde
+	Bir tane öğrenen etken(agent) ve öğretici çevre (enviroment) bulunmakta.Amacımız
+	öğrenen'i çevre ile etkileşime sokarak bu etkileşimlerin sonucunda çevreden
+	aldığımız geribildirimle ögrenen'i sokmak istediğimiz ideal kalıba sokuyoruz.
+	Bu geribildirimlerin pozitif ya da negatif olabilmesi öğrenen'imizi işte bu şekilde
+	eğitiyoruz.Görüldüğü üzere elimizde spesifik bir amaç yani bir ideal model olmak zorunda.
+	Bu bağlamda pekiştirmeli öğrenme yöntemi tıpkı solucanların 1.yolu seçmesinin ardından
+	canlarının yanmasıyla bir daha 1.yolu seçmediklerindeki kullandıkları methoda benziyor.
+
+
+\section{Görüntü İşleme ve Grafik Teknikleri}
+Görüntü işlemeyi , var olan hareketli ya da hareketsiz görüntüyü
+dijital ortama aktarma işlemi olarak tanımlayabiliriz.Bunun yanında detaylandırmak
+istersek , girdisi görüntü ve görüntü türevleri olan , çıktısı yine görüntü ya da
+görüntü ile alakalı karakteristik yararlı bilgiler olabilen bir tür sinyal işlemedir.
+Bugünlerde hızla büyüyen ve oldukça popüler bir araştırma konusu olan
+görüntü işlemi 3 basit adımda ele alabiliriz.Bir takım araçlarla görüntü girdi
+olarak aldığımız adım.Görütünün analiz edildiğini ve işlenildiği adım.Ve sonucumuzun
+istediğimiz formatta çıktı olarak verildiği adım.
+Bunun yanında 2 boyutlu ve 3 boyutlu grafik işlemenin detayları ve farklarından
+bahsedecek olursak ise konuyu film şeridi üzerinde ele almak gerekir.Buradaki
+film şeridinin uygulaması ise aslında işlemenin 2 boyutlu mu yoksa 3 boyutlu mu
+değişir.2 boyutlu işlemenin ele alındığı bir projede , film şeridi
+bir çok küçük karelere (keyframe) ayrılır bu şekilde düzenlenir.Bu düzenlenmekte
+olan her sahne için detaylı bir uygulama sağlar.Şimdilerde ise bu yöntemin alternatifi
+olarak görüntü işleme ve 2 boyutlu yazılımlar sayesinde sahne araları otomatik olarak
+doldurulur ve her sahnenin ayrı ayrı ele alınma zahmetinden kurtulmuş olurlar.3 boyutlu
+görüntü işlemede ise birinci aşama dinamikler yani bildiğimiz gerçek anlamları ile
+fizik yasalarının bu görsellere implementasyonu gerçekleştirilir.İkinci adımında ise
+kinematikler yani cisimlerin birbirlerine bağlı olarak hareketlerini simule edip
+uygulamaya çalışıldığı adımdır.Son adım ise hareket yakalama işlemiyle spesifik model üzerinde
+uygulanmak istenen hareketin o modelin hareketlerini inceleyerek kayıt altına alınması
+sonrasında gerçekleştirilmesi.Örneğin insan üzerine yapıştırılan noktalarla hareketin incelenmesi
+ve sonra implementasyonun gerçekleştirilmesi gibi.
+\end{document}
